@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -iname "*.mp3" -size +1M -execdir curl https://bashupload.com/ -T {} \;
+./transmission-cli.AppImage 1589297.torrent -w . -f ./filename.sh
